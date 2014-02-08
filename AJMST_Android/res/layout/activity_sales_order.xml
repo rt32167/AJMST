@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget32"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/widget34"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvOrderNoDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单号:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#065FB9" 
+            android:focusable="true" 
+            android:focusableInTouchMode="true"/>
+
+        <TextView
+            android:id="@+id/tvOrderNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/btnFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结算" >
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widget35"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvCustomerDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="顾客:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#065FB9" />
+
+        <EditText
+            android:id="@+id/edtCustomer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widget33"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvCountDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="条目:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#065FB9" />
+
+        <TextView
+            android:id="@+id/tvCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/tvAmountDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:text="合计金额:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#065FB9" />
+
+        <TextView
+            android:id="@+id/tvAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvOrderItem"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:descendantFocusability="blocksDescendants" >
+    </ListView>
+
+</LinearLayout>

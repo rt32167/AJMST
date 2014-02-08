@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:contentDescription="llll"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/buttonImportMaintain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="手工导入养护条目" />
+    <Button
+        android:id="@+id/buttonGetMaintainFromServer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取养护条目" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+    </LinearLayout>
+	    <Button
+        android:id="@+id/buttonUploadMaintainToServer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上传养护条目" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+	<Button
+        android:id="@+id/btnGetSpkfk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下载商品资料" />
+	
+	<Button
+        android:id="@+id/btnGetSpkfkMultThread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下载商品资料(多线程)" />
+		
+	<Button
+        android:id="@+id/btnGetGh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下载商品位置" />
+    </LinearLayout>
+
+
+
+<!-- 
+    <Button
+        android:id="@+id/buttonExportDBFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="导出数据库文件" />
+ -->
+    <Button
+        android:id="@+id/buttonTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/etPrbInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10" />
+    
+    <ProgressBar
+        android:id="@+id/prbRate"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxWidth="50dip"
+        android:minHeight="50dip" />
+
+    <EditText
+        android:id="@+id/etConsole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

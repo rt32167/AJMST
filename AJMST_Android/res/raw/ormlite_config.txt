@@ -1,0 +1,566 @@
+#
+# generated on 2014/01/17 09:45:34
+#
+# --table-start--
+dataClass=com.ajmst.android.entity.AdvSpkfk
+tableName=advspkfk
+# --table-fields-start--
+# --field-start--
+fieldName=gh
+# --field-end--
+# --field-start--
+fieldName=maxQuantity
+# --field-end--
+# --field-start--
+fieldName=spid
+id=true
+# --field-end--
+# --field-start--
+fieldName=spbh
+indexName=advspkfk_spbh_idx
+# --field-end--
+# --field-start--
+fieldName=sptm
+indexName=advspkfk_sptm_idx
+# --field-end--
+# --field-start--
+fieldName=spmch
+indexName=advspkfk_spmch_idx
+# --field-end--
+# --field-start--
+fieldName=zjm
+indexName=advspkfk_zjm_idx
+# --field-end--
+# --field-start--
+fieldName=beactive
+# --field-end--
+# --field-start--
+fieldName=yishj
+# --field-end--
+# --field-start--
+fieldName=isJzok
+# --field-end--
+# --field-start--
+fieldName=isGdsj
+# --field-end--
+# --field-start--
+fieldName=isGdzk
+# --field-end--
+# --field-start--
+fieldName=isTjsp
+# --field-end--
+# --field-start--
+fieldName=isHysp
+# --field-end--
+# --field-start--
+fieldName=isGmp
+# --field-end--
+# --field-start--
+fieldName=isGsp
+# --field-end--
+# --field-start--
+fieldName=isSy
+# --field-end--
+# --field-start--
+fieldName=isYp
+# --field-end--
+# --field-start--
+fieldName=jingd
+# --field-end--
+# --field-start--
+fieldName=denglrq
+# --field-end--
+# --field-start--
+fieldName=gengxshj
+# --field-end--
+# --field-start--
+fieldName=delrq
+# --field-end--
+# --field-start--
+fieldName=chbjs
+# --field-end--
+# --field-start--
+fieldName=dw
+# --field-end--
+# --field-start--
+fieldName=shpchd
+# --field-end--
+# --field-start--
+fieldName=shpgg
+# --field-end--
+# --field-start--
+fieldName=kemuhao
+# --field-end--
+# --field-start--
+fieldName=oldcode
+# --field-end--
+# --field-start--
+fieldName=rkhw
+# --field-end--
+# --field-start--
+fieldName=ckhw
+# --field-end--
+# --field-start--
+fieldName=dwbh
+# --field-end--
+# --field-start--
+fieldName=bzqfs
+# --field-end--
+# --field-start--
+fieldName=fenlbh
+# --field-end--
+# --field-start--
+fieldName=guojbh
+# --field-end--
+# --field-start--
+fieldName=changjbh
+# --field-end--
+# --field-start--
+fieldName=huaxm
+# --field-end--
+# --field-start--
+fieldName=changym
+# --field-end--
+# --field-start--
+fieldName=suming
+# --field-end--
+# --field-start--
+fieldName=xiwname
+# --field-end--
+# --field-start--
+fieldName=tongym
+# --field-end--
+# --field-start--
+fieldName=shengccj
+# --field-end--
+# --field-start--
+fieldName=pizhwh
+# --field-end--
+# --field-start--
+fieldName=zhucsb
+# --field-end--
+# --field-start--
+fieldName=jixing
+# --field-end--
+# --field-start--
+fieldName=shiyzh
+# --field-end--
+# --field-start--
+fieldName=bulfy
+# --field-end--
+# --field-start--
+fieldName=chuczysx
+# --field-end--
+# --field-start--
+fieldName=chuffl
+# --field-end--
+# --field-start--
+fieldName=yaofpd
+# --field-end--
+# --field-start--
+fieldName=yongfyyl
+# --field-end--
+# --field-start--
+fieldName=jinjzh
+# --field-end--
+# --field-start--
+fieldName=zhuysx
+# --field-end--
+# --field-start--
+fieldName=yaowchf
+# --field-end--
+# --field-start--
+fieldName=youxq
+# --field-end--
+# --field-start--
+fieldName=shangplx
+# --field-end--
+# --field-start--
+fieldName=guizbz
+# --field-end--
+# --field-start--
+fieldName=yongyfl
+# --field-end--
+# --field-start--
+fieldName=leibie
+# --field-end--
+# --field-start--
+fieldName=kuansbh
+# --field-end--
+# --field-start--
+fieldName=xslb
+# --field-end--
+# --field-start--
+fieldName=colorbh
+# --field-end--
+# --field-start--
+fieldName=chimbh
+# --field-end--
+# --field-start--
+fieldName=classkey
+# --field-end--
+# --field-start--
+fieldName=beizhu
+# --field-end--
+# --field-start--
+fieldName=jlgg
+# --field-end--
+# --field-start--
+fieldName=otd
+# --field-end--
+# --field-start--
+fieldName=ordercycle
+# --field-end--
+# --field-start--
+fieldName=stkquot
+# --field-end--
+# --field-start--
+fieldName=shl
+# --field-end--
+# --field-start--
+fieldName=shlv
+# --field-end--
+# --field-start--
+fieldName=hshjj
+# --field-end--
+# --field-start--
+fieldName=jj
+# --field-end--
+# --field-start--
+fieldName=shj
+# --field-end--
+# --field-start--
+fieldName=hshsj
+# --field-end--
+# --field-start--
+fieldName=lshj
+# --field-end--
+# --field-start--
+fieldName=koul
+# --field-end--
+# --field-start--
+fieldName=kcsx
+# --field-end--
+# --field-start--
+fieldName=kcxx
+# --field-end--
+# --field-start--
+fieldName=helkc
+# --field-end--
+# --field-start--
+fieldName=bzqts
+# --field-end--
+# --field-start--
+fieldName=yujts
+# --field-end--
+# --field-start--
+fieldName=zgshl
+# --field-end--
+# --field-start--
+fieldName=zhdcbj
+# --field-end--
+# --field-start--
+fieldName=zdshj
+# --field-end--
+# --field-start--
+fieldName=zgshj
+# --field-end--
+# --field-start--
+fieldName=zgjjxz
+# --field-end--
+# --field-start--
+fieldName=maolv
+# --field-end--
+# --field-start--
+fieldName=huiytj
+# --field-end--
+# --field-start--
+fieldName=itemlength
+# --field-end--
+# --field-start--
+fieldName=itemheight
+# --field-end--
+# --field-start--
+fieldName=itemwidth
+# --field-end--
+# --field-start--
+fieldName=weight
+# --field-end--
+# --field-start--
+fieldName=casevolume
+# --field-end--
+# --field-start--
+fieldName=caseweight
+# --field-end--
+# --field-start--
+fieldName=zuixdwtj
+# --field-end--
+# --field-start--
+fieldName=zuixdwzl
+# --field-end--
+# --field-start--
+fieldName=pfpj
+# --field-end--
+# --field-start--
+fieldName=dispcolor
+# --field-end--
+# --field-start--
+fieldName=jx
+# --field-end--
+# --field-start--
+fieldName=bzgg
+# --field-end--
+# --field-start--
+fieldName=lastmodifytime
+# --field-end--
+# --field-start--
+fieldName=isCmd
+# --field-end--
+# --field-start--
+fieldName=lsgg
+# --field-end--
+# --field-start--
+fieldName=isZdyh
+# --field-end--
+# --field-start--
+fieldName=isJkyp
+# --field-end--
+# --field-start--
+fieldName=minshl
+# --field-end--
+# --field-start--
+fieldName=cxDjKl
+# --field-end--
+# --field-start--
+fieldName=isCxDj
+# --field-end--
+# --field-start--
+fieldName=zdyh
+# --field-end--
+# --field-start--
+fieldName=zdhyzklshj
+# --field-end--
+# --field-start--
+fieldName=isCyhydz
+# --field-end--
+# --field-start--
+fieldName=huiyshl
+# --field-end--
+# --field-start--
+fieldName=nocalcopys
+# --field-end--
+# --field-start--
+fieldName=chbdj
+# --field-end--
+# --field-start--
+fieldName=fuzr
+# --field-end--
+# --field-start--
+fieldName=glid
+# --field-end--
+# --field-start--
+fieldName=isJsh
+# --field-end--
+# --field-start--
+fieldName=isLc
+# --field-end--
+# --field-start--
+fieldName=isZhongyao
+# --field-end--
+# --field-start--
+fieldName=typeBh
+# --field-end--
+# --field-start--
+fieldName=tjYlshj
+# --field-end--
+# --field-start--
+fieldName=isYbsp
+# --field-end--
+# --field-start--
+fieldName=ybZfbl
+# --field-end--
+# --field-start--
+fieldName=ybSpbh
+# --field-end--
+# --field-start--
+fieldName=username
+# --field-end--
+# --field-start--
+fieldName=chargelb
+# --field-end--
+# --field-start--
+fieldName=isSendybzx
+# --field-end--
+# --field-start--
+fieldName=zhilbz
+# --field-end--
+# --field-start--
+fieldName=laihdw
+# --field-end--
+# --field-start--
+fieldName=zbz
+# --field-end--
+# --field-start--
+fieldName=zbcode
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.ajmst.commmon.entity.AjmstMaintain
+tableName=ajmstmaintain
+# --table-fields-start--
+# --field-start--
+fieldName=id
+id=true
+# --field-end--
+# --field-start--
+fieldName=spid
+# --field-end--
+# --field-start--
+fieldName=pihao
+# --field-end--
+# --field-start--
+fieldName=shl
+# --field-end--
+# --field-start--
+fieldName=suggestQuantity
+# --field-end--
+# --field-start--
+fieldName=spbh
+# --field-end--
+# --field-start--
+fieldName=spmch
+# --field-end--
+# --field-start--
+fieldName=shengccj
+# --field-end--
+# --field-start--
+fieldName=shpgg
+# --field-end--
+# --field-start--
+fieldName=dw
+# --field-end--
+# --field-start--
+fieldName=cabinetNo
+# --field-end--
+# --field-start--
+fieldName=zjm
+# --field-end--
+# --field-start--
+fieldName=maintainDate
+# --field-end--
+# --field-start--
+fieldName=createTime
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.ajmst.android.entity.SalesOrder
+tableName=salesorder
+# --table-fields-start--
+# --field-start--
+fieldName=orderNo
+id=true
+# --field-end--
+# --field-start--
+fieldName=createTime
+# --field-end--
+# --field-start--
+fieldName=finishTime
+# --field-end--
+# --field-start--
+fieldName=creator
+# --field-end--
+# --field-start--
+fieldName=customer
+# --field-end--
+# --field-start--
+fieldName=state
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.ajmst.android.entity.SalesOrderItem
+tableName=salesorderitem
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=orderNo
+# --field-end--
+# --field-start--
+fieldName=seq
+# --field-end--
+# --field-start--
+fieldName=createTime
+# --field-end--
+# --field-start--
+fieldName=spid
+# --field-end--
+# --field-start--
+fieldName=spbh
+# --field-end--
+# --field-start--
+fieldName=spmch
+# --field-end--
+# --field-start--
+fieldName=pihao
+# --field-end--
+# --field-start--
+fieldName=shengccj
+# --field-end--
+# --field-start--
+fieldName=shpgg
+# --field-end--
+# --field-start--
+fieldName=dw
+# --field-end--
+# --field-start--
+fieldName=shl
+# --field-end--
+# --field-start--
+fieldName=lshj
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.ajmst.android.entity.MsgQueue
+tableName=msgqueue
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=serviceName
+# --field-end--
+# --field-start--
+fieldName=state
+# --field-end--
+# --field-start--
+fieldName=createTime
+# --field-end--
+# --field-start--
+fieldName=startSendTime
+# --field-end--
+# --field-start--
+fieldName=finishSendTime
+# --field-end--
+# --field-start--
+fieldName=failCount
+# --field-end--
+# --field-start--
+fieldName=data
+# --field-end--
+# --field-start--
+fieldName=lastFailReason
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
